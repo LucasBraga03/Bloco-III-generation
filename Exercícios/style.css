@@ -1,0 +1,65 @@
+/*pagina toda*/
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    color: rgb(0, 60, 255);
+    text-align: left;
+}
+
+
+/*cabeÃ§alho*/
+p{
+    text-align:center;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 22px;
+
+    padding: 100px;
+    
+    margin: -30px 0px 0px 0px; /*ou marginbottom:50px */
+    border-radius: 20px;
+}
+
+/*menu*/
+h1{
+    color: rgb(0, 60, 255);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform:capitalize;
+    margin: 0px 0px 40px 0px;
+    font-size: 80px;
+    
+}
+
+h2{
+    color: rgb(0, 60, 255);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform:capitalize;
+    margin: -30px 0px 33px 0px;
+    font-size: 50px;
+}
+
+#img2{
+    width: 100%;
+    max-width:300px;
+    max-height:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+
+#img1{
+    width: 100%;
+    max-width:500px;
+    max-height:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
