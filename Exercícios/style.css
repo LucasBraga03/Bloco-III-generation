@@ -1,65 +1,97 @@
 /*pagina toda*/
 *{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-ul{
-    color: rgb(0, 60, 255);
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center{
+
+    text-align: left;
+    margin-left: 40px ;
+}
+
+.logo{
+    width: 50%;
     text-align: left;
 }
 
-
-/*cabeÃ§alho*/
-p{
-    text-align:center;
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    font-size: 22px;
-
-    padding: 100px;
-    
-    margin: -30px 0px 0px 0px; /*ou marginbottom:50px */
-    border-radius: 20px;
-}
-
-/*menu*/
-h1{
-    color: rgb(0, 60, 255);
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform:capitalize;
-    margin: 0px 0px 40px 0px;
-    font-size: 80px;
+#menu{
+    text-align: right;
+    margin-top: -140px;
+    margin-right: 20px;
     
 }
 
-h2{
-    color: rgb(0, 60, 255);
-    text-align: center;
+#menu li {
+    display: inline;
+    padding: 8px;
+    
+}
+
+#menu li a {
     text-decoration: none;
-    font-weight: bold;
-    text-transform:capitalize;
-    margin: -30px 0px 33px 0px;
+    color:  black;
+    font-size: 19px;
+}
+
+#menu li a:hover {
+    color: grey;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    top: -200px;
+    background-color: cornflowerblue;
+    
+}
+
+.social-media{
+    position: absolute;
+    right: 510px;
+    top: 400px;
+}
+
+.social-media img{
+    display: block;
+    width: 60px;
+    margin: 20px 0;
+}
+
+.texto-sobre{
+    margin-top: 250px;
+    text-align: left;
+}
+
+.texto-sobre h1{
     font-size: 50px;
+    text-align: left;
 }
 
-#img2{
-    width: 100%;
-    max-width:300px;
-    max-height:150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 1500px;
+    text-align: left;
+    line-height: 38px;
 }
 
-#img1{
-    width: 100%;
-    max-width:500px;
-    max-height:300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    
-}
+
+

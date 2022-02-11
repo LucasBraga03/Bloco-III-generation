@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="contatostyle.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li><a href="index.html">home</a></li>
         <li><a href="contato.html">Contato</a></li>
+    
     </ul>
 
     <h1>
 
         Quer saber um pouco mais sobre a minha jornada na SumUp?
-
+        
 
     </h1>
 
@@ -44,9 +45,13 @@
         <label for="data">Data de Nascimento</label><br>
         <input type="date" id="data"/>
         <br>
-        
-        <button>Enviar</button>
+        <button onclick="enviar()">Enviar</button>
+
       </form>
+
+      <script src  = "script.js" ></script>
+
+
 
 </body>
 </html>
